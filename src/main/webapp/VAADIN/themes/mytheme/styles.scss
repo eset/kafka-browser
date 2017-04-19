@@ -1,0 +1,34 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+
+}
+
+.mytheme .ownControl {
+  margin-top: 19px;
+}
+
+.v-filterselect-suggestmenu {
+  max-height: 400px;
+}
+
+.mytheme .mono {
+  font-family: monospace;
+  overflow: scroll;
+  background-color: white;
+  border: 1px solid;
+  border-color: gainsboro;
+}
+
+.mytheme .mono pre {
+
+  padding: 5px;
+  white-space: pre-wrap;
+}
+
