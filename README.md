@@ -16,7 +16,7 @@ Simple Vaadin application for browsing Kafka messages
 
 ## Usage
 
-1. Edit Kafka clusters \src\main\webapp\WEB-INF\classes\appconf.xml
+1. Edit Kafka clusters \src\main\webapp\appconf.xml
 2. Check that your java version is >=1.8: 
 ```
 mvn --version
